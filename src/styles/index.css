@@ -1,6 +1,5 @@
-@import url(../vendor/fonts.css);
 :root {
-  --main-font: "Roboto Regular", sans-serif;
+  --main-font: 'Roboto', sans-serif;
 
   --color1: #fb4b4d;
   --color2: #cffd3c;
