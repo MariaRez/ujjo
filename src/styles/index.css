@@ -6,6 +6,23 @@
   --color3: #8b83f6;
   --color4: #222222;
   --color5: #fffcf7;
-  --color6: #ffffff;
-  --color7: #000000;
+}
+
+* {
+  font-family: var(--main-font);
+  font-weight: 400;
+}
+
+.body {
+  box-sizing: border-box;
+  padding: 0 20px;
+}
+
+.dark-color {
+  color: var(--color4);
+}
+
+.main-btn {
+  background-color: var(--color1);
+  color: var(--color5);
 }
