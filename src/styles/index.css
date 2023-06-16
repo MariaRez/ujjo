@@ -54,13 +54,20 @@
   }
 }
 
+@media (min-width: 768px) {
+  .mt1 {
+    margin-top: -1px;
+  }
+  
+}
+
 @media (max-width: 767px) {
   .main-btn {
     width: 100px;
     height: 33px;
   }
 
-  .m1 {
+  .ml1 {
     margin-left: -1px;
   }
 }
