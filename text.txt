@@ -80,20 +80,3 @@
 
 
 
-              <img src="./images/mainIllustration.svg" class="img-fluid" alt="Main Illustration">
-          <div class="position-relative overflow-hidden">
-            <div class="d-flex">
-              <div class="ticker__item">put some fire in your belly</div>
-              <div class="ticker__item"><img src="./images/pepper.svg" alt="Pepper"></div>
-              <div class="ticker__item">put some fire in your belly</div>
-              <div class="ticker__item"><img src="./images/pepper.svg" alt="Pepper"></div>
-              <div class="ticker__item">put some fire in your belly</div>
-              <div class="ticker__item"><img src="./images/pepper.svg" alt="Pepper"></div>
-              <div class="ticker__item">put some fire in your belly</div>
-              <div class="ticker__item"><img src="./images/pepper.svg" alt="Pepper"></div>
-              <div class="ticker__item">put some fire in your belly</div>
-              <div class="ticker__item"><img src="./images/pepper.svg" alt="Pepper"></div>
-            </div>
-          </div>
-          <img src="./images/pictures/sauce1.png" class="img-fluid" alt="Main pictures Sauce">
-
