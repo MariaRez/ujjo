@@ -56,12 +56,6 @@
   }
 }
 
-@media (max-width: 991px) {
-  .navigation {
-    width: 205px;
-  }
-}
-
 @media (min-width: 768px) {
   .mt1 {
     margin-top: -1px;
