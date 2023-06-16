@@ -1,24 +1,4 @@
-    <!-- <header>
-      <nav>
-        <ul>
-          <li>Go back</li>
-          <li>story</li>
-          <li>shop</li>
-          <li><img src="" alt="" /></li>
-          <li>contact</li>
-          <li>wholesale</li>
-          <li>clone</li>
-        </ul>
-      </nav>
-    </header>
     <main> -->
-      <!-- <section>
-        <img src="" alt="" />
-        <div>ticker slider</div>
-        <img src="" alt="" />
-        <h1>THE FIRST HOT SAUCE MADE FOR COFFEE</h1>
-        <img src="" alt="" />
-      </section> -->
       <!-- <section>
         <div>
           <img src="" alt="" />

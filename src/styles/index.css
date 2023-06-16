@@ -56,6 +56,16 @@
   }
 }
 
+@media (max-width: 1199px) {
+  .change-order-to-start {
+    order: -1;
+  }
+
+  .small-box {
+    max-width: 500px;
+  }
+}
+
 @media (min-width: 768px) {
   .mt1 {
     margin-top: -1px;
