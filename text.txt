@@ -97,6 +97,3 @@
           </div>
           <img src="./images/pictures/sauce1.png" class="img-fluid" alt="Main pictures Sauce">
 
-
-                    <h1 class="text-center text-uppercase text-dark">THE FIRST HOT SAUCE MADE FOR COFFEE</h1>
-          <img src="./images/pictures/sauce2.png" class="img-fluid" alt="Sauce in hand">

@@ -24,6 +24,10 @@
   height: 52px;
 }
 
+.column {
+  min-width: 300px;
+}
+
 .ticker__item {
   white-space: nowrap;
   flex-shrink: 0;
@@ -37,6 +41,10 @@
   animation-direction: alternate;
 }
 
+.main-header {
+  max-width: 430px;
+}
+
 @keyframes ticker {
   0% {
     transform: translateZ(0);
@@ -46,9 +54,13 @@
   }
 }
 
-@media (max-width:768px) {
+@media (max-width: 767px) {
   .main-btn {
     width: 100px;
     height: 33px;
+  }
+
+  .m1 {
+    margin-left: -1px;
   }
 }
