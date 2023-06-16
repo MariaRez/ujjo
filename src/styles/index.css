@@ -13,6 +13,10 @@
   font-weight: 400;
 }
 
+.link-violet:hover {
+  color: var(--color3);
+}
+
 .dark-color {
   color: var(--color4);
 }
@@ -20,8 +24,6 @@
 .main-btn {
   background-color: var(--color1);
   color: var(--color5);
-  width: 157px;
-  height: 52px;
 }
 
 .column {
@@ -54,6 +56,12 @@
   }
 }
 
+@media (max-width: 991px) {
+  .navigation {
+    width: 205px;
+  }
+}
+
 @media (min-width: 768px) {
   .mt1 {
     margin-top: -1px;
@@ -62,11 +70,6 @@
 }
 
 @media (max-width: 767px) {
-  .main-btn {
-    width: 100px;
-    height: 33px;
-  }
-
   .ml1 {
     margin-left: -1px;
   }
