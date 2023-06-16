@@ -26,3 +26,34 @@
   background-color: var(--color1);
   color: var(--color5);
 }
+
+.ticker {
+  position: relative;
+  overflow: hidden;
+}
+
+.ticker__wrapper {
+  display: flex;
+}
+
+.ticker__item {
+  white-space: nowrap;
+  flex-shrink: 0;
+  padding: 0 14px;
+  animation-name: ticker;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  /* бесконечное движение */
+  animation-iteration-count: infinite;
+  /* чтобы анимация сначала выполнялась вперед, а затем назад */
+  animation-direction: alternate;
+}
+
+@keyframes ticker {
+  0% {
+    transform: translateZ(0);
+  }
+  to {
+    transform: translate3d(-200px, 0, 0);
+  }
+}
