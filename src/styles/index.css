@@ -13,6 +13,10 @@
   font-weight: 400;
 }
 
+body {
+  min-width: 320px;
+}
+
 .link-violet:hover {
   color: var(--color3);
 }
@@ -81,5 +85,9 @@
 @media (max-width: 767px) {
   .ml1 {
     margin-left: -1px;
+  }
+
+  .img-auxiliary {
+    width: 100px;
   }
 }
