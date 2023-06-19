@@ -64,13 +64,18 @@
   .small-box {
     max-width: 500px;
   }
+
+  .img-auxiliary {
+    margin-top: 10px;
+    width: 150px;
+    height: auto;
+  }
 }
 
 @media (min-width: 768px) {
   .mt1 {
     margin-top: -1px;
   }
-  
 }
 
 @media (max-width: 767px) {
