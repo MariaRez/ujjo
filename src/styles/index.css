@@ -37,7 +37,7 @@ body {
 .ticker__item {
   white-space: nowrap;
   flex-shrink: 0;
-  padding: 0 14px;
+  padding: 0 20px;
   animation-name: ticker;
   animation-duration: 5s;
   animation-timing-function: linear;
@@ -56,6 +56,10 @@ body {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+.footer {
+  background-color: var(--color2);
 }
 
 @keyframes ticker {
