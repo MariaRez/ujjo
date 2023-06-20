@@ -51,6 +51,13 @@ body {
   max-width: 430px;
 }
 
+.bcgd-img {
+  background-image: url(../images/backgroundImage.svg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 @keyframes ticker {
   0% {
     transform: translateZ(0);
