@@ -1,5 +1,5 @@
 :root {
-  --main-font: 'Roboto', sans-serif;
+  --main-font: "Roboto", sans-serif;
 
   --color1: #fb4b4d;
   --color2: #cffd3c;
@@ -51,6 +51,15 @@ body {
   max-width: 430px;
 }
 
+.card__item {
+  width: 400px;
+  height: 604px;
+  background-image: url(../images/backgroundForElements.svg);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .bcgd-img {
   background-image: url(../images/backgroundImage.svg);
   background-position: center;
@@ -68,6 +77,13 @@ body {
   }
   to {
     transform: translate3d(-200px, 0, 0);
+  }
+}
+
+@media (max-width: 1399px) {
+  .card__item {
+    width: 350px;
+    height: 528.5px;
   }
 }
 
@@ -100,5 +116,12 @@ body {
 
   .img-auxiliary {
     width: 100px;
+  }
+}
+
+@media (max-width: 375px) {
+  .card__item {
+    width: 300px;
+    height: 453px;
   }
 }
