@@ -71,6 +71,10 @@ body {
   background-color: var(--color2);
 }
 
+.footer__img {
+  margin-top: -173px;
+}
+
 @keyframes ticker {
   0% {
     transform: translateZ(0);
@@ -84,6 +88,10 @@ body {
   .card__item {
     width: 350px;
     height: 528.5px;
+  }
+
+  .footer__img {
+    margin-top: -150px;
   }
 }
 
@@ -101,7 +109,18 @@ body {
     width: 150px;
     height: auto;
   }
+
+  .footer__img {
+    margin-top: -125px;
+  }
 }
+
+@media (max-width: 991px) {
+  .footer__img {
+    margin-top: -93px;
+  }
+}
+
 
 @media (min-width: 768px) {
   .mt1 {
@@ -116,6 +135,16 @@ body {
 
   .img-auxiliary {
     width: 100px;
+  }
+
+  .footer__img {
+    margin-top: -70px;
+  }
+}
+
+@media (max-width: 580px) {
+  .footer__img {
+    margin-top: -12vw;
   }
 }
 
