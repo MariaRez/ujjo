@@ -10,7 +10,6 @@
 
 * {
   font-family: var(--main-font);
-  font-weight: 400;
   letter-spacing: 0.5px;
 }
 
@@ -23,41 +22,50 @@ body {
 .large-title {
   font-size: 65px;
   line-height: 73px;
+  font-weight: 400;
+  max-width: 785px;
 }
 
 .medium-title {
   font-size: 58px;
   line-height: 65px;
+  font-weight: 400;
 }
 
 .small-title {
   font-size: 32px;
   line-height: 38px;
+  font-weight: 400;
 }
 
 .subtitle {
   font-size: 18px;
   line-height: 28px;
+  font-weight: 400;
 }
 
 .x-large-text {
   font-size: 17px;
   line-height: 26px;
+  font-weight: 400;
 }
 
 .large-text {
   font-size: 16px;
   line-height: 24px;
+  font-weight: 400;
 }
 
 .medium-text {
   font-size: 15px;
   line-height: 24px;
+  font-weight: 400;
 }
 
 .small-text {
   font-size: 14px;
   line-height: 22px;
+  font-weight: 400;
 }
 
 /* конец раздела со шрифтами */
@@ -72,11 +80,19 @@ body {
 
 .main-btn {
   background-color: var(--color1);
-  color: var(--color5);
+}
+
+.small-box {
+  padding: 48px 24px;
 }
 
 .column {
   min-width: 300px;
+}
+
+.img-auxiliary {
+  width: 225px;
+  height: auto;
 }
 
 .column-with-image {
@@ -149,6 +165,16 @@ body {
 }
 
 @media (max-width: 1399px) {
+  .large-title {
+    font-size: 50px;
+    line-height: 56px;
+    max-width: 560px;
+  }
+
+  .img-auxiliary {
+    width: 200px;
+  }
+
   .card__item {
     width: 350px;
     height: 528.5px;
@@ -169,18 +195,18 @@ body {
 }
 
 @media (max-width: 1199px) {
-  .change-order-to-start {
-    order: -1;
-  }
-
-  .small-box {
-    max-width: 500px;
+  .large-title {
+    font-size: 45px;
+    line-height: 50.4px;
+    max-width: 530px;
   }
 
   .img-auxiliary {
-    margin-top: 10px;
     width: 150px;
-    height: auto;
+  }
+
+  .small-box {
+    padding: 40px 20px;
   }
 
   .column-with-image {
@@ -208,6 +234,20 @@ body {
 }
 
 @media (max-width: 991px) {
+  .large-title {
+    font-size: 35px;
+    line-height: 39px;
+    max-width: 380px;
+  }
+
+  .img-auxiliary {
+    width: 140px;
+  }
+
+  .small-box {
+    padding: 30px 20px;
+  }
+
   .main-container-for-columns {
     flex-direction: column;
     justify-content: center;
@@ -226,12 +266,22 @@ body {
 }
 
 @media (max-width: 767px) {
-  .ml1 {
-    margin-left: -1px;
+  .large-title {
+    font-size: 27px;
+    line-height: 30px;
+    max-width: 298px;
   }
 
   .img-auxiliary {
     width: 100px;
+  }
+
+  .small-box {
+    padding: 20px 10px;
+  }
+
+  .ml1 {
+    margin-left: -1px;
   }
 
   .footer__img {
@@ -245,7 +295,27 @@ body {
   }
 }
 
+@media (max-width: 519px) {
+  .large-title {
+    font-size: 20px;
+    line-height: 22.5px;
+    max-width: 200px;
+  }
+
+  .img-auxiliary {
+    width: 70px;
+  }
+
+  .small-box {
+    padding: 10px;
+  }
+}
+
 @media (max-width: 375px) {
+  .large-title {
+    max-width: 158px;
+  }
+
   .card__item {
     width: 300px;
     height: 453px;
