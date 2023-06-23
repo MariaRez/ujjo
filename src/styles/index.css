@@ -30,6 +30,8 @@ body {
   font-size: 58px;
   line-height: 65px;
   font-weight: 400;
+  max-width: 536px;
+  margin: 5vw 0 0;
 }
 
 .small-title {
@@ -99,7 +101,6 @@ body {
   box-sizing: border-box;
   width: 624px;
   height: 697px;
-  margin-top: 90px;
 }
 .column-with-text {
   width: 694px;
@@ -171,6 +172,12 @@ body {
     max-width: 560px;
   }
 
+  .medium-title {
+    font-size: 48px;
+    line-height: 44px;
+    max-width: 440px;
+  }
+
   .img-auxiliary {
     width: 200px;
   }
@@ -199,6 +206,12 @@ body {
     font-size: 45px;
     line-height: 50.4px;
     max-width: 530px;
+  }
+
+  .medium-title {
+    font-size: 42px;
+    line-height: 47px;
+    max-width: 400px;
   }
 
   .img-auxiliary {
@@ -240,6 +253,13 @@ body {
     max-width: 380px;
   }
 
+  .medium-title {
+    font-size: 35px;
+    line-height: 39px;
+    max-width: 330px;
+    margin: 20px 0 0;
+  }
+
   .img-auxiliary {
     width: 140px;
   }
@@ -254,6 +274,11 @@ body {
     row-gap: 16px;
     overflow: hidden;
   }
+
+  .column-with-image {
+    height: 430px;
+  }
+
   .footer__img {
     margin-top: -93px;
   }
@@ -270,6 +295,12 @@ body {
     font-size: 27px;
     line-height: 30px;
     max-width: 298px;
+  }
+
+  .medium-title {
+    font-size: 27px;
+    line-height: 30px;
+    max-width: 260px;
   }
 
   .img-auxiliary {
