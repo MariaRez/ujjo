@@ -160,6 +160,10 @@ body {
   margin-top: -173px;
 }
 
+.reflected-element {
+  transform: scale(-1, 1);
+}
+
 @keyframes ticker {
   0% {
     transform: translateZ(0);
