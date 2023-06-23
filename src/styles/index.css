@@ -40,6 +40,7 @@ body {
   font-size: 32px;
   line-height: 38px;
   font-weight: 400;
+  margin: 14px 0;
 }
 
 .subtitle {
@@ -190,6 +191,12 @@ body {
     height: 528.5px;
   }
 
+  .small-title {
+    font-size: 30px;
+    line-height: 36px;
+    margin: 12px 0;
+  }
+
   .column-with-image {
     width: 548px;
     height: 592.55px;
@@ -244,6 +251,22 @@ body {
     max-width: 290px;
   }
 
+  .card__item {
+    width: 300px;
+    height: 453px;
+  }
+
+  .small-title {
+    font-size: 24px;
+    line-height: 28.8px;
+    margin: 10px 0;
+  }
+  
+  .subtitle {
+    font-size: 16px;
+    line-height: 25px;
+  }
+
   .footer__img {
     margin-top: -125px;
   }
@@ -281,6 +304,22 @@ body {
   .column-with-image {
     height: 430px;
     border: none;
+  }
+
+  .card__item {
+    width: 220px;
+    height: 332px;
+  }
+
+  .small-title {
+    font-size: 18px;
+    line-height: 21.6px;
+    margin: 7px 0;
+  }
+  
+  .subtitle {
+    font-size: 14px;
+    line-height: 19.5px;
   }
 
   .footer__img {
