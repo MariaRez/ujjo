@@ -7,6 +7,7 @@
   --color4: #222222;
   --color5: #fffcf7;
   --color6: #000000;
+  --color7: #FFFFFF;
 }
 
 * {
@@ -78,6 +79,12 @@ body {
 
 /* конец раздела со шрифтами */
 
+.navigation {
+  padding: 21px;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .link-violet:hover {
   color: var(--color3);
 }
@@ -88,6 +95,13 @@ body {
 
 .main-btn {
   background-color: var(--color1);
+  color: var(--color7);
+  width: 157px;
+  height: 52px;
+}
+
+.header__link {
+  width: 100px;
 }
 
 .small-box {
@@ -230,6 +244,19 @@ body {
 }
 
 @media (max-width: 1199px) {
+  .navigation {
+    max-width: 538px;
+  }
+
+  .main-btn {
+    width: 140px;
+    height: 47px;
+  }
+
+  .change-order-to-first {
+    order: -1;
+  }
+
   .large-title {
     font-size: 45px;
     line-height: 50.4px;
@@ -370,6 +397,18 @@ body {
 }
 
 @media (max-width: 767px) {
+  .navigation {
+    padding: 21px 0;
+    justify-content: center;
+    max-width: 300px;
+    row-gap: 5px;
+    column-gap: 5px;
+  }
+
+  .delete-change-order {
+    order: 0;
+  }
+
   .large-title {
     font-size: 27px;
     line-height: 30px;
