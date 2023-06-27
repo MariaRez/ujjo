@@ -154,6 +154,9 @@ body {
 
 .footer {
   background-color: var(--color2);
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 90px;
 }
 
 .footer__img {
@@ -409,6 +412,12 @@ body {
 
   .ml1 {
     margin-left: -1px;
+  }
+
+  .footer {
+    flex-direction: column;
+    row-gap: 10px;
+    padding: 10px 30px;
   }
 
   .footer__img {
