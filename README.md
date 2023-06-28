@@ -1,6 +1,9 @@
 # ![](https://github.com/MariaRez/ujjo/raw/main/./src/images/pepper.svg) Ujjo &mdash; THE FIRST HOT SAUCE MADE FOR COFFEE
 
 ## Описание проекта
+
+[Ссылка на готовую работу](https://mariarez.github.io/ujjo/)
+
 Данный проект представляет собой обучение и отработку применения работы с популярным фреймворком Bootstrap.
 
 Пэт-проект для отработки и получения новых знаний по верстке, выполненных на основании макета - [Ссылка на макет в Figma](https://www.figma.com/file/N8cL2Qns1b0A6VsmdX1jTN/Ujjo-(Copy)?type=design&node-id=1-130&t=pMtj2wtgozlr392k-0)

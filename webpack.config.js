@@ -43,22 +43,30 @@ module.exports = {
       {
         test: /\.css$/,
         use: [
-            {
-              loader: "style-loader",
-            },
-            {
-              loader: "css-loader",
-            },
-            {
-              loader: "postcss-loader",
-              options: {
-                postcssOptions: {
-                  plugins: () => [autoprefixer],
-                },
+          {
+            loader: "style-loader",
+          },
+          {
+            loader: "css-loader",
+          },
+          {
+            loader: "postcss-loader",
+            options: {
+              postcssOptions: {
+                plugins: () => [autoprefixer],
               },
             },
-          ],
+          },
+        ],
       },
+      {
+        test: /\.html$/,
+        use: 'html-loader'
+    },
+    {
+        test: /\.(jpg|png|svg|jpeg|gif)$/,
+        type: 'asset/resource'
+    },
     ],
   },
 };
