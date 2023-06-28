@@ -1,8 +1,21 @@
-# Ujjo
+# ![](https://github.com/MariaRez/ujjo/raw/main/./src/images/scorpion.svg) Ujjo &mdash; THE FIRST HOT SAUCE MADE FOR COFFEE
 
-[Ссылка на макет в Figma](https://www.figma.com/file/N8cL2Qns1b0A6VsmdX1jTN/Ujjo-(Copy)?type=design&node-id=1-130&t=pMtj2wtgozlr392k-0)
+## Описание проекта
+Данный проект представляет собой обучение и отработку применения работы с популярным фреймворком Bootstrap.
 
-* отработка bootstrap
+Пэт-проект для отработки и получения новых знаний по верстке, выполненных на основании макета - [Ссылка на макет в Figma](https://www.figma.com/file/N8cL2Qns1b0A6VsmdX1jTN/Ujjo-(Copy)?type=design&node-id=1-130&t=pMtj2wtgozlr392k-0)
 
-- зациклить ссылки
-- titles
+Работа выполнена с учетом применения встроеных стилей фреймворка, а также собственных стилей для оптимального вида и соотвествия с первоначальным макетом.
+Проект полностью адаптивен и подходит для работы на любых устройствах.
+
+## Использованные технологии
+
+* Bootstrap 5
+* БЭМ-методология
+* Google Fonts
+* Webpack
+
+## Инструкция
+
+
+## Планы по доработке
