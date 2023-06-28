@@ -1,4 +1,4 @@
-# ![](https://github.com/MariaRez/ujjo/raw/main/./src/images/scorpion.svg) Ujjo &mdash; THE FIRST HOT SAUCE MADE FOR COFFEE
+# ![](https://github.com/MariaRez/ujjo/raw/main/./src/images/pepper.svg) Ujjo &mdash; THE FIRST HOT SAUCE MADE FOR COFFEE
 
 ## Описание проекта
 Данный проект представляет собой обучение и отработку применения работы с популярным фреймворком Bootstrap.
