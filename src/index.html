@@ -24,11 +24,10 @@
     <title>Ujjo</title>
   </head>
   <body class="container p-0 border border-dark">
-    <header
-      class="container p-3 border-bottom border-dark d-flex justify-content-center"
+    <header class="header container p-3 border-bottom border-dark d-flex justify-content-center"
     >
-      <ul class="w-100 nav navigation">
-        <li class="nav-item change-order-to-first delete-change-order">
+      <ul class="w-100 nav header__navigation">
+        <li class="nav-item nav-item__change-order-to-first nav-item__delete-change-order">
           <a
             href="#"
             class="nav-link p-0 m-0 text-uppercase d-flex align-items-center justify-content-center btn btn-lg rounded-0 small-text main-btn"
@@ -39,7 +38,7 @@
         <li class="nav-item">
           <a
             href="#"
-            class="nav-link p-0 dark-color text-uppercase link-violet small-text d-flex justify-content-center align-items-center header__link"
+            class="nav-link p-0 dark-color text-uppercase to-violet-color small-text d-flex justify-content-center align-items-center header__link"
             role="button"
             >story</a
           >
@@ -47,12 +46,12 @@
         <li class="nav-item">
           <a
             href="#"
-            class="nav-link p-0 dark-color text-uppercase link-violet small-text d-flex justify-content-center align-items-center header__link"
+            class="nav-link p-0 dark-color text-uppercase to-violet-color small-text d-flex justify-content-center align-items-center header__link"
             role="button"
             >shop</a
           >
         </li>
-        <li class="nav-item change-order-to-first">
+        <li class="nav-item nav-item__change-order-to-first">
           <a
             href="#"
             class="nav-link p-0"
@@ -64,7 +63,7 @@
         <li class="nav-item">
           <a
             href="#"
-            class="nav-link p-0 dark-color text-uppercase link-violet small-text d-flex justify-content-center align-items-center header__link"
+            class="nav-link p-0 dark-color text-uppercase to-violet-color small-text d-flex justify-content-center align-items-center header__link"
             role="button"
             >contact</a
           >
@@ -72,15 +71,15 @@
         <li class="nav-item">
           <a
             href="#"
-            class="nav-link p-0 dark-color text-uppercase link-violet small-text d-flex justify-content-center align-items-center header__link"
+            class="nav-link p-0 dark-color text-uppercase to-violet-color small-text d-flex justify-content-center align-items-center header__link"
             role="button"
             >wholesale</a
           >
         </li>
-        <li class="nav-item change-order-to-first">
+        <li class="nav-item nav-item__change-order-to-first">
           <a
             href="#"
-            class="nav-link p-0 m-0 main-btn text-uppercase d-flex align-items-center justify-content-center btn btn-lg rounded-0 link-violet small-text"
+            class="nav-link p-0 m-0 main-btn text-uppercase d-flex align-items-center justify-content-center btn btn-lg rounded-0 to-violet-color small-text"
             role="button"
             >clone</a
           >
@@ -88,10 +87,10 @@
       </ul>
     </header>
 
-    <section class="container pb-2">
+    <section class="main container pb-2">
       <div class="row">
         <div
-          class="column col p-0 d-flex flex-column justify-content-between align-items-center"
+          class="main__column col p-0 d-flex flex-column justify-content-between align-items-center"
         >
           <img
             src="./images/mainIllustration.svg"
@@ -141,7 +140,7 @@
           />
         </div>
         <div
-          class="column col p-0 d-flex flex-column justify-content-between align-items-center border-start border-top border-dark ml1 mt1"
+          class="main__column col p-0 d-flex flex-column justify-content-between align-items-center border-start border-top border-dark ml1 mt1"
         >
           <h1 class="text-center text-uppercase text-dark medium-title my-4">
             THE FIRST HOT SAUCE MADE FOR COFFEE
@@ -155,14 +154,12 @@
       </div>
     </section>
 
-    <section
-      class="container p-0 d-flex flex-column align-items-center border-top border-dark"
-    >
+    <section class="products container p-0 d-flex flex-column align-items-center border-top border-dark">
       <div
-        class="w-100 d-flex flex-wrap justify-content-between align-items-center small-box"
+        class="w-100 d-flex flex-wrap justify-content-between align-items-center products__box"
       >
         <img
-          class="img-auxiliary"
+          class="products__small-image-for-title"
           src="./images/scorpion.svg"
           alt="Scorpion"
         />
@@ -172,7 +169,7 @@
           THROW SOME LAVA IN YOUR JAVA
         </h2>
         <img
-          class="img-auxiliary reflected-element"
+          class="products__small-image-for-title products__small-image-for-title_turned"
           src="./images/scorpion.svg"
           alt="Scorpion"
         />
@@ -185,9 +182,9 @@
           <img src="./images/cicleLogo.svg" alt="Logo" class="logo-in-section logo-in-section_order_four">
           <img src="./images/additionalLogo.svg" alt="Logo" class="logo-in-section logo-in-section_order_five">
           <img src="./images/additionalLogo.svg" alt="Logo" class="logo-in-section logo-in-section_order_six">
-        <div class="row justify-content-center card__items">
+        <div class="row justify-content-center">
           <div
-            class="p-0 my-3 mx-2 d-flex justify-content-center align-items-end card__item"
+            class="p-0 my-3 mx-2 d-flex justify-content-center align-items-end card-item"
           >
             <div class="card text-center text-dark bg-transparent border-0 p-3">
               <div class="card-body p-0">
@@ -206,7 +203,7 @@
             </div>
           </div>
           <div
-            class="p-0 my-3 mx-2 d-flex justify-content-center align-items-end card__item"
+            class="p-0 my-3 mx-2 d-flex justify-content-center align-items-end card-item"
           >
             <div class="card text-center text-dark bg-transparent border-0 p-3">
               <div class="card-body p-0">
@@ -225,7 +222,7 @@
             </div>
           </div>
           <div
-            class="p-0 my-3 mx-2 d-flex justify-content-center align-items-end card__item"
+            class="p-0 my-3 mx-2 d-flex justify-content-center align-items-end card-item"
           >
             <div class="card text-center text-dark bg-transparent border-0 p-3">
               <div class="card-body p-0">
@@ -290,12 +287,12 @@
       />
     </section>
 
-    <section class="container border-top border-bottom border-dark p-0">
+    <section class="story container border-top border-bottom border-dark p-0">
       <div
-        class="d-flex justify-content-center align-items-center main-container-for-columns"
+        class="d-flex justify-content-center align-items-center story__container"
       >
         <div
-          class="d-flex flex-column justify-content-between align-items-center p-0 border-dark column-with-image"
+          class="d-flex flex-column justify-content-between align-items-center p-0 border-dark story__column-with-image"
         >
           <h2 class="text-center text-uppercase text-dark medium-title medium-title_place_story">
             the story behind the souce
@@ -307,7 +304,7 @@
           />
         </div>
         <div
-          class="column-with-text d-flex flex-column justify-content-center align-items-center column-with-text bcgd-img"
+          class="column-with-text d-flex flex-column justify-content-center align-items-center story__column-with-text story__column-with-text-bcgd-img"
         >
           <p class="text-center large-text">
             HELLO, I&rsquo;M LAUREN AND AS A LIFELONG ADVENTUROUS EATER, I&rsquo;VE TRIED A
@@ -329,7 +326,7 @@
       </div>
     </section>
 
-    <section class="container p-0">
+    <section class="illustration container p-0">
       <div
         class="position-relative overflow-hidden mw-100 p-4 border-bottom border-dark user-select-none"
       >
@@ -363,14 +360,12 @@
 
       <img
         src="./images/illustrationForFooter.svg"
-        class="img-fluid footer__img"
-        alt="Illustration Footer"
+        class="img-fluid illustration__image"
+        alt="Illustration"
       />
     </section>
 
-    <footer
-      class="footer d-flex border-top border-dark"
-    >
+    <footer class="footer d-flex border-top border-dark">
       <a class="text-uppercase p-0 text-decoration-none text-dark medium-text" href="#"
         >privacy</a
       >
